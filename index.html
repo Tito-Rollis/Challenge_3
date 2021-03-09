@@ -4,9 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>Challenge 3</title>
 </head>
 <body>
+    <!-- Header -->
+    <div class="container-fluid mt-3">
+        <!-- Header Top -->
+        <div class="row d-flex align-items-center justify-content-between">
+            <div class="col-11">
+                <div class="side-left d-flex">
+                    <div class="person"></div>
+                    <div class="notification ml-5">
+                        <p style="color:#616161; margin-bottom: 0; font-weight: 500;"><span style="color:#9ee3f1;">Garry Newman</span> posted on your timeline</p>
+                        <p style="color:#cacaca; margin-bottom: 0;">32 minutes ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1" style="margin-right: 0 !important;">
+                <div class="d-flex justify-content-end">
+                    <img src="./assets/img/menu.png" width="20px">
+                </div>
+            </div>
+        </div>
+        <p class="mt-4" style="color: #777777;">Remember the place we were talking about the other night? Found it!</p>
+        <!-- images-->
+        <div class="img"></div>
+        <!-- like and share -->
+        <div class="row mt-4 mb-4">
+            <div class="col-1">
+                <img src="./assets/img/heart.png" width="20px">
+                <p class="d-inline" style="color:#777777;font-size: 0.8rem;font-weight: 500;margin-left: 7%;">Like (5)</p>
+            </div>
+            <div class="col-2">
+                <img src="./assets/img/share.png" width="20px">
+                <p class="d-inline" style="color:#777777;font-size: 0.8rem;font-weight: 500; margin-left: 7%;">Share (21)</p>
+            </div>
+        </div>
+    </div>
+    <!-- comment -->
+    <div class="container-fluid comment pt-2">
+        <p class="d-inline" style="color:#777777;font-size: 0.8rem;font-weight: 500; margin-right:1%">1 comment</p>
+        <img src="./assets/img/arrow-down.png" width="10px">
+        <!-- 1st comment -->
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-1 justify-content-">
+                        <div class="girl"></div>
+                    </div>
+                    <div class="col-11">
+                        <div class="right-text">
+                            <p class="d-inline" style="font-weight: 500; color: #4d4d4d">Alice Freeman</p>
+                            <p class="d-inline" style="font-weight: 400;color: #cacaca;">June 10, 2018</p>
+                            <p>That's a wonderful place. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad, tempore ducimus in pariatur doloremque tenetur numquam quidem. Veritatis quasi reiciendis minima quo. Excepturi, consequuntur corporis impedit esse vel hic ullam velit quis voluptatibus obcaecati.</p>
+                        <div class="reply row align-items-center mt-2">
+                            <div class="col-1">
+                                <p style="font-weight: 500;color: #90cad4;">Reply</p>
+                            </div>
+                            <div class="col-1" style="margin-left: -3%;">
+                                <img class="d-block" src="./assets/img/flags.png" width="15px">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd comment -->
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-1 justify-content-">
+                        <div class="anonim"></div>
+                    </div>
+                    <div class="col-11">
+                        <div class="right-text">
+                            <textarea class="form-control" placeholder="Add a comment..." style="height: 100px"></textarea>
+                        </div>
+                        <button class="my-3 btn btn-primary" style="background-color: #019ddd; margin-left: -3%;">Post a comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>

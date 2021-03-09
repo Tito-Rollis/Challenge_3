@@ -1,0 +1,50 @@
+.person {
+    width: 50px;
+    height: 50px;
+    background-image: url(./assets/img/guy.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin-right: 1%;
+}
+
+.img {
+    height: 80vh;
+    background-image: url(./assets/img/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -200px;
+}
+
+.comment {
+    background-color: #f5f5f5;
+}
+
+.girl {
+    width: 50px;
+    height: 50px;
+    background-image: url(./assets/img/girl.jfif);
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.right-text {
+    margin-left: -3%;
+}
+
+.right-text p {
+    margin-bottom: 0;
+}
+
+.anonim {
+    width: 50px;
+    height: 50px;
+    background-image: url(./assets/img/man.png);
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center;
+}
